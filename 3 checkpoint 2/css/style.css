@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url('../images/wolken_breed.png'),  -webkit-gradient(linear, center bottom, center top, from(#0A790D), color-stop(25%, #45AFEA), to(#45AFEA));
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+div {
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
+div#container {
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#header {
+	background: rgba(235, 234, 228, 0.6);
+}
+
+div#menu {
+	background: rgba(235, 234, 228, 0.6);
+	height: 47px;
+	padding: 0;
+}
+
+div#menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+div#menu li {
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+div#menu a {
+	text-decoration:none;
+	color:#800;
+}
+
+div#menu li:hover {
+	background-color:#45AFEA;
+}
+
+div#menu li.selected {
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+div#content {
+	background: rgba(235, 234, 228, 0.6);
+}

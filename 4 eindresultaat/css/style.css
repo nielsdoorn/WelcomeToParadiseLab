@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	-webkit-transition: background-color 1s ease-in-out;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+@-webkit-keyframes clouds {
+        0%   { background-position: -1500px 0px; }
+        100% { background-position: 1500px 0px; }
+}
+
+body {
+	background-image: url('../images/wolken_breed.png'),  -webkit-gradient(linear, center bottom, center top, from(#0A790D), color-stop(25%, #45AFEA), to(#45AFEA));
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+	-webkit-animation-name: clouds;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 300s;
+}
+
+div {
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
+div#container {
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#header {
+	background: rgba(235, 234, 228, 0.6);
+	font-family: 'Miltonian', cursive;
+	font-size:48pt;
+	text-align:center;
+	color:#800;
+}
+
+div#menu {
+	background: rgba(235, 234, 228, 0.6);
+	height: 47px;
+	padding: 0;
+}
+
+div#menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+div#menu li {
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+} 
+
+div#menu li.selected {
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+div#menu a {
+	text-decoration:none;
+	font-family: 'Rammetto One', cursive;
+	color:#800;
+}
+
+div#menu li:hover {
+	background-color:#45AFEA;
+}
+
+div#content {
+	background: rgba(235, 234, 228, 0.6);
+	font-family: 'Lancelot', cursive;
+	font-size:18pt;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
