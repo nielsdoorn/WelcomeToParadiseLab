@@ -7,7 +7,11 @@ Werkwijze: Klassikaal, ieder leerling volgt de stappen die de docent voor doet e
 
 De bestanden staan in het versiebeheersysteem github en kunnen als zip gedownload worden:
 
+github pagina:
 http://goo.gl/erd1B
+
+zip:
+http://goo.gl/91yqI
 
 
 BELANGRIJK
@@ -18,8 +22,7 @@ Dit is op te lossen door de extensie voor mozilla, ie en opera toe te voegen, ma
 
 
 
-
-
+-------------------------- hier afknippen --------------------------
 
 Om de LAB te maken gaan we steeds stapje voor stapje door de HTML en vooral de CSS heen. 
 
