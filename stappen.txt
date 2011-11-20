@@ -1,3 +1,26 @@
+Opdracht voor klas 1 periode 2
+##############################
+
+Doel: Een website maken met verschillende CSS3 technieken die vooral tot doel hebben om dingen op een makkelijke en goede manier mooier te maken. Het resultaat kan dienen als basis voor uitbreidingen of voor een nieuwe opdracht.
+
+Werkwijze: Klassikaal, ieder leerling volgt de stappen die de docent voor doet en uitlegt. Er zijn een aantal checkpoints ingebouwd. De docent kan deze gebruiken om de klas synchroon te krijgen. Vooraf de checkpoints geven is waarschijnlijk in sommige gevallen geen goed idee.
+
+De bestanden staan in het versiebeheersysteem github en kunnen als zip gedownload worden:
+
+http://goo.gl/erd1B
+
+
+BELANGRIJK
+==========
+Om het een en ander eenvoudig en begrijpbaar te houden maak ik in de CSS gebruik van de webkit extensie. Dat betekent dat deze lab alleen werkt in safari of chrome. 
+
+Dit is op te lossen door de extensie voor mozilla, ie en opera toe te voegen, maar daar wordt het zo rommelig van. Een andere goede oplossing is het gebruik van deze excellente javascript library: http://goo.gl/R7O7J van http://lea.verou.me/.
+
+
+
+
+
+
 Om de LAB te maken gaan we steeds stapje voor stapje door de HTML en vooral de CSS heen. 
 
 Stap 1
