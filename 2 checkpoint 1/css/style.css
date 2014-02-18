@@ -9,8 +9,9 @@ html, body {
 }
 
 body {
-	background-image: url('../images/wolken_breed.png'),  -webkit-gradient(linear, center bottom, center top, from(#0A790D), color-stop(25%, #45AFEA), to(#45AFEA));
-	background-repeat:no-repeat;
+    background: url('../images/wolken_breed.png'),
+    linear-gradient( 0deg, green, darkgreen 25%, darkblue 25% , lightblue);
+    background-repeat:no-repeat;
 	background-attachment:fixed;
 }
 

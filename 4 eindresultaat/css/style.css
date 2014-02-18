@@ -2,7 +2,7 @@
 /* CSS Document */
 
 * {
-	-webkit-transition: background-color 1s ease-in-out;
+	transition: background-color 1s ease-in-out;
 }
 
 html, body {
@@ -13,16 +13,17 @@ html, body {
 }
 
 @-webkit-keyframes clouds {
-        0%   { background-position: -1500px 0px; }
-        100% { background-position: 1500px 0px; }
+    0%   { background-position: -1500px 0; }
+    100% { background-position: 1500px 0; }
 }
 
 body {
-	background-image: url('../images/wolken_breed.png'),  -webkit-gradient(linear, center bottom, center top, from(#0A790D), color-stop(25%, #45AFEA), to(#45AFEA));
+	background: url('../images/wolken_breed.png'),
+                        linear-gradient( 0deg, green, darkgreen 25%, darkblue 25% , lightblue);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	
-	-webkit-animation-name: clouds;  
+	-webkit-animation-name: clouds;
     -webkit-animation-iteration-count: infinite;  
     -webkit-animation-timing-function: linear;
     -webkit-animation-duration: 300s;
