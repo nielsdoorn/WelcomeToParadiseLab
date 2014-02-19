@@ -1,33 +1,9 @@
-Opdracht voor klas 1 periode 2
-##############################
-
-Doel: Een website maken met verschillende CSS3 technieken die vooral tot doel hebben om dingen op een makkelijke en goede manier mooier te maken. Het resultaat kan dienen als basis voor uitbreidingen of voor een nieuwe opdracht.
-
-Werkwijze: Klassikaal, ieder leerling volgt de stappen die de docent voor doet en uitlegt. Er zijn een aantal checkpoints ingebouwd. De docent kan deze gebruiken om de klas synchroon te krijgen. Vooraf de checkpoints geven is waarschijnlijk in sommige gevallen geen goed idee.
-
-De bestanden staan in het versiebeheersysteem github en kunnen als zip gedownload worden:
-
-github pagina:
-http://goo.gl/erd1B
-
-zip:
-http://goo.gl/91yqI
-
-
-BELANGRIJK
-==========
-Om het een en ander eenvoudig en begrijpbaar te houden maak ik in de CSS gebruik van de webkit extensie. Dat betekent dat deze lab alleen werkt in safari of chrome. 
-
-Dit is op te lossen door de extensie voor mozilla, ie en opera toe te voegen, maar daar wordt het zo rommelig van. Een andere goede oplossing is het gebruik van deze excellente javascript library: http://goo.gl/R7O7J van http://lea.verou.me/.
-
-
-
--------------------------- hier afknippen --------------------------
+# Welcome To Paradise
 
 Om de LAB te maken gaan we steeds stapje voor stapje door de HTML en vooral de CSS heen. 
 
-Stap 1
-======
+## Stap 1
+
 In de map start staat onze uitgangspositie. Deze bestaat uit een HTML bestand, index.html, een map css met daarin style.css en een map images met daarin een aantal plaatjes.
 
 a) open index.html in Dreamweaver.
@@ -42,8 +18,8 @@ b) copy-paste de volgende code in de BODY van de HTML:
   </div>
 </div>
 
-Stap 2
-======
+## Stap 2
+
 De CSS structuur maken en inhoud in de HTML plaatsen.
 
 a) copy paste de volgende structuur in style.css
@@ -82,8 +58,8 @@ c) voeg content toe aan de div met het id content in de HTML:
 <p> His propriae delectus luptatum ea, et modo soleat deterruisset vix. At diceret tractatos vim. Fabellas interpretaris in sit, pri homero melius reprimique in. Vix ne incorrupte reprehendunt, eu prompta appellantur est. Cu qui corpora recusabo neglegentur, est ridens mollis adipiscing ex, ad exerci accommodare consectetuer eos. Quis epicurei phaedrum ex his, nec ad deserunt conceptam. </p>
 
 
-Stap 3
-======
+## Stap 3
+
 Een achtergrondplaatje voor de body
 
 a) voeg de volgende code toe aan je CSS (bovenaan):
@@ -110,8 +86,8 @@ body {
 	background-attachment:fixed;
 }
 
-Stap 4
-======
+## Stap 4
+
 Div'jes ronde hoeken geven
 
 a) copy-paste de volgende code in de CSS:
@@ -126,12 +102,11 @@ b) voeg de volgende regel toe in de CSS aan header, menu en content:
 
 background: rgba(235, 234, 228, 0.6);
 
-####
-Je bent nu bij CHECKPOINT 1, als dingen niet goed werken, kopieer dan de bestanden uit de map "2 checkpoint 1".
-####
+*Je bent nu bij CHECKPOINT 1, als dingen niet goed werken, kopieer dan de bestanden uit de map "2 checkpoint 1".*
 
-Stap 5
-======
+
+## Stap 5
+
 Het menu.
 
 a) voeg toe aan de HTML in de menu div:
@@ -185,12 +160,11 @@ in de index.html is dat (het gaat om het class="selected" gedeelte):
 
 <li class="selected"><a href="index.html">Home</a></li>
 
-####
-Je bent nu bij CHECKPOINT 2, als dingen niet goed werken, kopieer dan de bestanden uit de map "3 checkpoint 2".
-####
+*Je bent nu bij CHECKPOINT 2, als dingen niet goed werken, kopieer dan de bestanden uit de map "3 checkpoint 2".*
 
-Stap 6
-======
+
+## Stap 6
+
 Mooiere lettertypes!
 
 a) Voeg toe in de HEAD van de HTML:
@@ -215,8 +189,8 @@ d) voeg toe aan div#content in de CSS:
 font-family: 'Lancelot', cursive;
 font-size:18pt;
 
-Stap 7
-======
+## Stap 7
+
 Afbeelding toevoegen!
 
 a) plaats halverwege de content (Lorum Ipsem) een image tag toe aan de HTML:
@@ -233,8 +207,8 @@ img {
 	border-radius: 10px;
 }
 
-Stap 8
-======
+## Stap 8
+
 De vervolgpagina's maken.
 
 a) Kopieer index.html naar contact.html en info.html. Dit kan in de windows verkenner of vanuit Dreamweaver met opslaan als.
@@ -253,8 +227,8 @@ in contact.html:
 
 <li class="selected"><a href="contact.html">Contact</a></li>
 
-Stap 9
-======
+## Stap 9
+
 De achtergrond animeren met CSS!
 
 a) voeg deze animatie toe aan de CSS bovenaan:
@@ -271,8 +245,8 @@ b) en voeg toe aan de body selector in de CSS:
 -webkit-animation-timing-function: linear;
 -webkit-animation-duration: 300s;
 
-Stap 10
-=======
+## Stap 10
+
 Achtergrond transities animeren
 
 a) voeg helemaal bovenaan de volgende code toe aan de CSS:

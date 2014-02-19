@@ -90,6 +90,7 @@ div#content {
 
 img {
 	float: left;
+    display: inline-block;
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
