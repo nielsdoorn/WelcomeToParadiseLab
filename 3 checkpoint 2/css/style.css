@@ -14,54 +14,52 @@ body {
 	background-attachment:fixed;
 }
 
-div {
-	border-radius: 20px;
+article, nav {
 	padding: 10px;
-	margin: 10px;
+	margin-bottom: 10px;
 }
 
 div#container {
 	width:850px;
-	margin-left:auto;
-	margin-right:auto;
+	margin: 0 auto;
 }
 
-div#header {
+header h1 {
 	background: rgba(235, 234, 228, 0.6);
 }
 
-div#menu {
+nav {
 	background: rgba(235, 234, 228, 0.6);
 	height: 47px;
 	padding: 0;
 }
 
-div#menu ul {
+nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-div#menu li {
-	float: left;
+nav li {
+	display: inline-block;
 	margin-left: 10px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-div#menu a {
+nav a {
 	text-decoration:none;
 	color:#800;
 }
 
-div#menu li:hover {
+nav li:hover {
 	background-color:#45AFEA;
 }
 
-div#menu li.selected {
+nav li.selected {
 	background-color: white;
 }
 
-div#content {
+article {
 	background: rgba(235, 234, 228, 0.6);
 }

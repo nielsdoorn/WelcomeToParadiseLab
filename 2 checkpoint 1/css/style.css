@@ -9,9 +9,8 @@ html, body {
 }
 
 body {
-    background: url('../images/wolken_breed.png'),
-    linear-gradient( 0deg, green, darkgreen 25%, darkblue 25% , lightblue);
-    background-repeat:no-repeat;
+  background: url('../images/wolken_breed.png'), linear-gradient( 0deg, green, darkgreen 25%, darkblue 25% , lightblue);
+  background-repeat:no-repeat;
 	background-attachment:fixed;
 }
 
@@ -23,18 +22,17 @@ div {
 
 div#container {
 	width:850px;
-	margin-left:auto;
-	margin-right:auto;
+	margin: 0 auto;
 }
 
-div#header {
+header h1 {
 	background: rgba(235, 234, 228, 0.6);
 }
 
-div#menu {
+nav {
 	background: rgba(235, 234, 228, 0.6);
 }
 
-div#content {
+article {
 	background: rgba(235, 234, 228, 0.6);
 }
