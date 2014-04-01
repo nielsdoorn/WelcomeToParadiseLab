@@ -1,9 +1,8 @@
 # Welcome To Paradise
 
-Om de LAB te maken gaan we steeds stapje voor stapje door de HTML en de CSS heen. 
+Om deze LAB te maken gaan we steeds stapje voor stapje door de HTML en de CSS heen. 
 
 ## Stap 1
-
 In de map start staat onze uitgangspositie. Deze bestaat uit een HTML bestand, `index.html`, een map css met daarin `style.css` en een map images met daarin een aantal plaatjes.
 
 a) open `index.html` in je editor.
@@ -29,13 +28,13 @@ a) copy paste de volgende structuur in `style.css`
 div#container {
 }
 
-div#header {
+header {
 }
 
-div#menu {
+nav {
 }
 
-div#content {
+article {
 }
 ```
 
@@ -98,7 +97,7 @@ Div'jes ronde hoeken geven
 
 a) copy-paste de volgende code in de CSS:
 ```
-div {
+header, nav, article {
 	border-radius: 20px;
 	padding: 10px;
 	margin: 10px;
@@ -182,7 +181,7 @@ a) Voeg toe in de HEAD van de HTML:
 <link href='http://fonts.googleapis.com/css?family=Lancelot' rel='stylesheet' type='text/css'>
 ```
 
-b) voeg toe aan`div#header` in de CSS:
+b) voeg toe aan`header` in de CSS:
 
 ```
 font-family: 'Miltonian', cursive;
@@ -191,7 +190,7 @@ text-align:center;
 color:#800;
 ```
 
-c) voeg toe aan `div#menu a` (let op! niet `div#menu`, maar `div#menu a`) in de CSS:
+c) voeg toe aan `nav a` (let op! niet `nav`, maar `nav a`) in de CSS:
 ```
 font-family: 'Rammetto One', cursive;
 ```
@@ -252,8 +251,8 @@ a) voeg deze animatie toe aan de CSS bovenaan:
 ```
 b) en voeg toe aan de body selector in de CSS:
 ```
--webkit-animation-name: clouds;  
--webkit-animation-iteration-count: infinite;  
+-webkit-animation-name: clouds;
+-webkit-animation-iteration-count: infinite;
 -webkit-animation-timing-function: linear;
 -webkit-animation-duration: 300s;
 ```
@@ -264,7 +263,7 @@ Achtergrond transities animeren
 a) voeg helemaal bovenaan de volgende code toe aan de CSS:
 ```
 * {
-	-webkit-transition: background-color 1s ease-in-out;
+	transition: background-color 1s ease-in-out;
 }
 ```
 

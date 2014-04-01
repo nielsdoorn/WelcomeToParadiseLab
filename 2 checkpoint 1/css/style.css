@@ -10,11 +10,11 @@ html, body {
 
 body {
   background: url('../images/wolken_breed.png'), linear-gradient( 0deg, green, darkgreen 25%, darkblue 25% , lightblue);
-  background-repeat:no-repeat;
+	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
 
-div {
+header, nav, article, {
 	border-radius: 20px;
 	padding: 10px;
 	margin: 10px;
@@ -25,7 +25,7 @@ div#container {
 	margin: 0 auto;
 }
 
-header h1 {
+header {
 	background: rgba(235, 234, 228, 0.6);
 }
 
