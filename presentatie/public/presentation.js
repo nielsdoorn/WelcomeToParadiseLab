@@ -10,7 +10,7 @@ window.onload = function() {
     var c = slides.length * 200;
     for (var i = 0; i < slides.length; i++) {
         var slide = slides[i];
-        var a = i+1 * (2 * Math.PI) / slides.length;
+        var a = (i+0.1) * (2 * Math.PI) / slides.length;
         var x = Math.sin(a) * c;
         var y = Math.cos(a) * c;
         var z = 1000;
@@ -21,6 +21,7 @@ window.onload = function() {
 
         //slide.dataset.rotateY = i * (360 / slides.length);
         //slide.dataset.rotateX = i * (360 / slides.length / 4);
+        //slide.dataset.rotateX = 45;
         var deg = -(a / (Math.PI * 2)) * 360;
         slide.dataset.rotateZ = deg;
         slide.dataset.scale = 1;
