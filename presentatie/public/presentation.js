@@ -1,10 +1,32 @@
 window.onload = function() {
 	console.log('starting...');
-	impress().init();
+	
 	if ("ontouchstart" in document.documentElement) { 
 		// evil piece of HTML code in JS...
-    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
 	}
+    var slides = document.querySelectorAll(".slide");
+    console.log("num of slides: ", slides.length);
+    var c = slides.length * 200;
+    for (var i = 0; i < slides.length; i++) {
+        var slide = slides[i];
+        var a = i+1 * (2 * Math.PI) / slides.length;
+        var x = Math.sin(a) * c;
+        var y = Math.cos(a) * c;
+        var z = 1000;
+
+        slide.dataset.x = x;
+        slide.dataset.y = y;
+        slide.dataset.z = z;
+
+        //slide.dataset.rotateY = i * (360 / slides.length);
+        //slide.dataset.rotateX = i * (360 / slides.length / 4);
+        var deg = -(a / (Math.PI * 2)) * 360;
+        slide.dataset.rotateZ = deg;
+        slide.dataset.scale = 1;
+        slide.id = "s"+i;
+    };
+    impress().init();
 }
 
 /*

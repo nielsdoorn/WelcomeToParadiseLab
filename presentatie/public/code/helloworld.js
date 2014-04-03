@@ -1,1 +1,1 @@
-console.log("Hello OpenTechSchool!");
+console.log("Hello World!");

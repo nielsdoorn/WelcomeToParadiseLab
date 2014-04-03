@@ -219,8 +219,9 @@ var _ = self.Prism = {
 				
 				pattern.lastIndex = 0;
 				
-				var match = pattern.exec(str);
-				
+				if (pattern.exec) {
+					var match = pattern.exec(str);
+				}
 				if (match) {
 					if(lookbehind) {
 						lookbehindLength = match[1].length;
@@ -390,7 +391,7 @@ Prism.hooks.add('wrap', function(env) {
 	if (env.type === 'entity') {
 		env.attributes['title'] = env.content.replace(/&amp;/, '&');
 	}
-});;
+});
 Prism.languages.css = {
 	'comment': /\/\*[\w\W]*?\*\//g,
 	'atrule': {
@@ -986,7 +987,8 @@ if (!self.Prism || !self.document || !document.querySelector) {
 var Extensions = {
 	'js': 'javascript',
 	'html': 'markup',
-	'svg': 'markup'
+	'svg': 'markup',
+	'css': 'css'
 };
 
 Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach(function(pre) {
