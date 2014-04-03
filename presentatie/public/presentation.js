@@ -1,5 +1,5 @@
 window.onload = function() {
-	console.log('starting...');
+	console.log('starting this awesome presentation');
 	
 	if ("ontouchstart" in document.documentElement) { 
 		// evil piece of HTML code in JS...
