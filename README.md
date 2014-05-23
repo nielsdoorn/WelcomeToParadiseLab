@@ -266,6 +266,3 @@ a) voeg helemaal bovenaan de volgende code toe aan de CSS:
 	transition: background-color 1s ease-in-out;
 }
 ```
-
-
-testje
