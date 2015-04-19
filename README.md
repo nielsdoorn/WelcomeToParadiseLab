@@ -88,7 +88,7 @@ body {
 b) toevoegen van een gradient, vervang de body in de CSS:
 ```
 body {
-	background-image: url('../images/wolken_breed.png'),  -webkit-gradient(linear, center bottom, center top, from(#0A790D), color-stop(25%, #45AFEA), to(#45AFEA));
+	background: url('../images/wolken_breed.png'), linear-gradient( 0deg, green, darkgreen 25%, darkblue 25% , lightblue);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
@@ -105,7 +105,7 @@ header, nav, article {
 	margin: 10px;
 }
 ```
-b) voeg de volgende regel toe in de CSS aan header, menu en content:
+b) voeg de volgende regel toe in de CSS aan header, nav en article:
 ```
 background: rgba(235, 234, 228, 0.6);
 ```
@@ -127,7 +127,7 @@ a) voeg toe aan de HTML in het nav element:
 
 b) vervang in de CSS:
 ```
-div#menu {
+nav {
 	background: rgba(235, 234, 228, 0.6);
 	height: 47px;
 	padding: 0;
@@ -135,31 +135,31 @@ div#menu {
 ```
 c) voeg toe onder `div#menu`:
 ````
-div#menu ul {
+nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-div#menu li {
+nav li {
 	display: inline-block;
 	margin-left: 10px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-div#menu a {
+nav a {
 	text-decoration:none;
 	color:#800;
 }
 
-div#menu li:hover {
+nav li:hover {
 	background-color:#45AFEA;
 }
 ```
 d) aangeven welk item geselecteerd is, voeg de volgende code toe aan de CSS:
 ```
-div#menu li.selected {
+nav li.selected {
 	background-color: white;
 }
 ```
@@ -226,7 +226,7 @@ De vervolgpagina's maken.
 
 a) Kopieer `index.html` naar `contact.html` en `info.html`. Dit kan in de windows verkenner of vanuit Dreamweaver met opslaan als.
 
-b) Pas in de twee nieuwe bestanden het geselecteerde menu item aan:
+b) Pas in de twee nieuwe bestanden het geselecteerde menuitem aan:
 
 in beide bestanden:
 ```
@@ -247,8 +247,8 @@ De achtergrond animeren met CSS!
 a) voeg deze animatie toe aan de CSS bovenaan:
 ```
 @-webkit-keyframes clouds {
-        0%   { background-position: -1500px 0px; }
-        100% { background-position: 1500px 0px; }
+    0%   { background-position: -1500px 0, 0 0; }
+    100% { background-position: 1500px 0, 0 0; }
 }
 ```
 b) en voeg toe aan de body selector in de CSS:
