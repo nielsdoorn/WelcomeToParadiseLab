@@ -10,11 +10,13 @@ a) open `index.html` in je editor.
 b) copy-paste de volgende code in de BODY van de HTML:
 ```
 <div id="container">
-  <div id="header"> Welcome to Paradise </div>
-  <div id="menu"> 
-  </div>
-  <div id="content">
-  </div>
+<div id="container">
+  <header>
+    <h1>Welcome to Paradise</h1>
+  </header>
+  <nav> 
+  </nav>
+  <article>
 </div>
 ```
 
@@ -114,7 +116,7 @@ background: rgba(235, 234, 228, 0.6);
 
 Het menu.
 
-a) voeg toe aan de HTML in de menu div:
+a) voeg toe aan de HTML in het nav element:
 ```
 <ul>
   	<li><a href="index.html">Home</a></li>
