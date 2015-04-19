@@ -133,7 +133,7 @@ nav {
 	padding: 0;
 }
 ```
-c) voeg toe onder `div#menu`:
+c) voeg toe onder `nav`:
 ````
 nav ul {
 	list-style: none;
@@ -268,3 +268,6 @@ a) voeg helemaal bovenaan de volgende code toe aan de CSS:
 	transition: background-color 1s ease-in-out;
 }
 ```
+
+# Einde.
+Hopelijk heb je hier iets van geleerd over CSS3 animaties, transitions, gradients et cetera zodat je je websites nog mooier kunt maken op een manier die je misschien nog niet kende.
